@@ -9,3 +9,30 @@
 6. Create root element using ReactDOM.
 7. How to render ReactElemnt in root.
 8. How to render nested reactElement in root using react.
+
+# Episode 02
+1. Initialize npm with npm init
+2. Install bundlers like parcel (eg. npm install -D parcel) -- D stands for dev dependency.
+3. Build your code using parcel.
+4. Install react and reactDOM as a package instead of injecting a cdn.
+5. Build in production command.
+6. Add browsers list in package.json.
+
+# Parcel
+- Dev Build
+- Local Host
+- HMR : Hot Module Replacement
+- Caching : Faster Builds
+- File Watching Algorithm -- written in c++
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hasing
+- Code Spilitting
+- Diiferential Bundling - support older browsers
+- Diagnostics
+- Error Handling
+- Can also host on HTTPs
+- Tree shaking - remove unused code
+- Different prod and dev bundle

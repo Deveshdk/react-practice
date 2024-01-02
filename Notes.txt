@@ -1,0 +1,24 @@
+1. Bundlers : A bundler is a tool that takes all your JavaScript code, along with any other assets like CSS or images, and combines them into a single file (or a few files) that can be served to the browser.
+It basically bundles your code, so that it can be pushed to production. Eg. Webpack,veet,parcel.
+
+2. How to Install Bundlers in our project: npm install -D "bundlersname" eg. npm install -D parcel.  D stands for devDependencies.
+
+3. Caret in Version(^) : If put infornt of the dependency version, it will automatically update the minor version of the dependency. eg. "parcel": "^2.10.3"
+
+4. Tilde in version(~) : If put infornt of the dependency version, it will automatically update the major version of the dependency. Not a very good practice. eg. "parcel": "~2.10.3"
+
+5. package.json : It keeps all the configuration of our projects. eg. package version,liscence,git url etc.
+
+6. package-lock.json : It keeps the exact version that is being installed. package.json can have caret or tilde but lock.json will keep the exact version.
+
+7. node-modules : It contains all the codes that npm has fetched of all the dependencies in our project. It is basically a database/bundles of dependencies. Every package has its own dependencies.
+
+8. transitive dependencties : eg. parcel is my dependency but dependencies that parcel depends on.
+
+9. Build your code using parcel : npx parcel index.html    eg. npx bundler-name src-name
+
+10. Install react and reactDOM as a package instead of injecting a cdn: npm i react and npm i react-dom
+
+11. Build in production command : npx parcel build index.html   (remove the main from package.json as it will give error in production because we give the entry point while running. so it conflicts.)
+
+12. How to add browserslist: Add browserslist in package.json.
