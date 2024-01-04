@@ -36,3 +36,10 @@
 - Can also host on HTTPs
 - Tree shaking - remove unused code
 - Different prod and dev bundle
+
+# Episode 03
+1. How to use script to run the project.
+2. JSX
+3. Babel
+4. React Component
+5. Component Composition
