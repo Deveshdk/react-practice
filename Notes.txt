@@ -96,4 +96,13 @@
             <h1 id="heading">We are adding one componet into another component/ Component Composition</h1>
             </div>
 
-18. 
+18. Dist Folder :
+     -    Production Build Output:
+          -    When you create a production build of your React application using tools like
+               Create React App, Webpack, or other bundlers, the optimized and minified versions of your JavaScript, CSS,
+               and other assets are generated and placed in the dist folder.
+
+     -    Ready for Deployment: 
+          -    The dist folder contains files that are optimized for deployment to a web server or hosting service.
+               These optimized files have minimized file sizes, concatenated code, and other optimizations for faster loading and
+               better performance in a production environment.

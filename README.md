@@ -9,6 +9,7 @@
 6. Create root element using ReactDOM.
 7. How to render ReactElemnt in root.
 8. How to render nested reactElement in root using react.
+9. Dist Folder
 
 # Episode 02
 1. Initialize npm with npm init
